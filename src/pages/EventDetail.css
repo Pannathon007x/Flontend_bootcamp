@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f1f1f1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e6e6e6;
+  padding: 10px 30px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.login-btn {
+  background-color: #763737;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.event-detail-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.event-header {
+  margin-bottom: 20px;
+}
+
+.event-header h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.tags-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.tag {
+  background-color: #bff0a1;
+  color: #2c7a1c;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.score-btn {
+  background: white;
+  border: 2px solid #000;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.tag-bar {
+  margin-top: 12px;
+  height: 8px;
+  background: #d3f5bd;
+  border-radius: 10px;
+}
+
+.event-description {
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.event-info {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #333;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.register-btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.register-btn {
+  background-color: #a14040;
+  color: white;
+  font-size: 16px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: #822c2c;
+}
