@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./AdminLogin.css";
+import api from "../utils/api";
 
 const AdminLogin = () => {
   const [formData, setFormData] = useState({
@@ -27,7 +28,7 @@ const AdminLogin = () => {
     }
 
     try {
-      const response = await axios.post("http://localhost:3001/auth/login", {
+      const response = await api.post("/auth/loginadmin", {
         email: formData.email,
         password: formData.password,
       });
