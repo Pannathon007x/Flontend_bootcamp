@@ -80,3 +80,5 @@ export function userJoinActivity(userId: number, activityId: number): Promise<Ax
   return api.post(`/user/join/${userId}/${activityId}`);
 }
 
+
+

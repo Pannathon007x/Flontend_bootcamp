@@ -31,7 +31,7 @@ export interface AuthResponse {
 export function register(
   data: RegisterPayload
 ): Promise<AxiosResponse<AuthResponse>> {
-  return api.post<AuthResponse>("/register", data);
+  return api.post<AuthResponse>("/auth/register", data);
 }
 
 // POST /login
